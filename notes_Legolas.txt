@@ -1,0 +1,39 @@
+Files come from gray Surface Pro on 2/3/24
+C:\Users\mlowe\Documents\AlphaImmersion_I_attendedLEGOLAS2023\LEGOLAS new4 Scripts
+
+
+From Readme_Legolas.txt on gray Surface Pro, 2/3/24
+Combine with Readme_Legolas.txt on OneDrive ...\talks\...
+
+Once you have access to the course: https://umd.instructure.com/courses/1328599
+ if you have time next week, it would be ideal
+ if you can watch Panopto lectures from 11/7 and 11/14. In the files section,
+ there is a pdf slides file for the lecture on Gaussian Processes and Active Learning221101a.
+ And here is the colab link for the lecture
+ https://colab.research.google.com/drive/1vP_324uKsodzV67KQnNW5wObnLQ4l6od 
+to follow along. 
+We will also provide you with handouts on step-by-step procedures as well as access to
+ the Github page where Logan placed all the files.
+
+To set up computer:
+install Anaconda. Will need to run Jupyter notebook file.
+pip install rpyc
+pip install sv_ttk
+pip install Gpy (in .ipynb file)
+pip install GPyOpt
+pip install paramiko
+download Arduino IDE
+download Logan's Github files.  https://github.com/logansaar/LEGOLAS-Files/tree/main
+8/8/23 Had to update numpy in order to import GPy. Use numpy-1.23.5
+
+
+Gaussian process links
+-------------------------
+https://distill.pub/2019/visual-exploration-gaussian-processes/
+https://towardsdatascience.com/an-intuitive-guide-to-gaussian-processes-ec2f0b45c71d#:~:text=A%20Gaussian%20process%20is%20a,functions%20by%20observing%20training%20data.
+
+
+Logan Saar
+Ryan Kim
+Haotong
+Chih-yu

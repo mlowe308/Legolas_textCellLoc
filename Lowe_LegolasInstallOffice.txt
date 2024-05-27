@@ -1,0 +1,29 @@
+Install Anaconda with Python 3.11
+Prompt: C:\Users\mlowe\OneDrive - Loyola University Maryland\Documents\Legolas
+pip3 install rpyc
+pip3 install sv_ttk        At this point, manual.py can start up.
+
+Go to network settings on PC
+Disconnect from Loyola networks
+Connect to Linksys04582. press blue WPS button on Linksys. 
+    Whirling crcle, wait. Finally see "no Internet, secured."
+    Network symbol looks like empty globe.
+ssh pi@192.168.1.11 > raspberry      Made it.
+ssh pi@192.168.1.12 > raspberry
+
+python manual.py
+Reset server works
+Connect via config. Had to edit config.yaml. 
+    cell_loc_map: c:\Users\mlowe\OneDrive - Loyola University Maryland\Documents\Legolas\cell_map.txt
+    Then Manual Mode opens.
+    Home works.
+
+
+To set up computer:
+
+pip install Gpy (in .ipynb file)
+pip install GPyOpt
+pip install paramiko
+download Arduino IDE
+download Logan's Github files.  https://github.com/logansaar/LEGOLAS-Files/tree/main
+8/8/23 Had to update numpy in order to import GPy. Use numpy-1.23.5
