@@ -1,0 +1,26 @@
+Khan Academy
+Henderson-Hasselbalch equation
+https://www.khanacademy.org/science/ap-chemistry-beta/x2eef969c74e0d802:acids-and-bases/x2eef969c74e0d802:buffers/v/hendersonhasselbalch-equation
+
+Logan's SURF talk, slides 12-14
+
+Here are several things to work on besides understanding Gaussian processes better:
+1.	On Github > Arduino – pH Code, there is a txt file saying that you should watch a Khan Academy video on the
+        Henderson-Hasselbalch equation. You will be working with acetic acid and the video discusses acetic acid.
+2.	Also you can look at certain slides in Logan Saar’s SURF talk. The slides talk about the Henderson-Hasselbalch equation.
+3.	My recollection is that Logan writes the HH equation differently from the video. Explain the difference.
+4.	Make an Excel table with one column for the ratio of base to acid. Calculate the pH, based on the HH equation.
+
+
+
+The next goal is to gain more control in measuring pH when there are several solutions of known pH. Design an experiment with ~5 wells.
+ Two wells should be occupied by the standards with pH 4 and pH 7. The other wells should contain different ratios of acid/conj_base.
+ For a fixed total volume in a well, calculate the amount of acid and conj base that you can pipet accurately with the current setup.
+ Plan what you need to make Legolas do in order to measure pH.
+
+If you’re ready to implement your idea on Legolas, pour out an appropriate amount into a cup (stock solutions are in the box).
+ Bear in mind that we will not pour the cup contents back into the bottle because of the risk of contamination. If you pour
+ too much into the cup, you will have to make more stock solution sooner – doable but it takes time. When you actually make
+ the measurements, if the answers are not what you expect, it could be the pH sensor is defective or your method of measurement
+ needs improvement.
+
