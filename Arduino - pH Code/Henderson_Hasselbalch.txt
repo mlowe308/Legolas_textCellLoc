@@ -1,0 +1,34 @@
+Khan Academy
+Henderson-Hasselbalch equation
+https://www.khanacademy.org/science/ap-chemistry-beta/x2eef969c74e0d802:acids-and-bases/x2eef969c74e0d802:buffers/v/hendersonhasselbalch-equation
+
+Logan's SURF talk, slides 12-14
+
+Here are several things to work on besides understanding Gaussian processes better:
+1.	On Github > Arduino – pH Code, there is a txt file saying that you should watch a Khan Academy video on the
+        Henderson-Hasselbalch equation. You will be working with acetic acid and the video discusses acetic acid.
+2.	Also you can look at certain slides in Logan Saar’s SURF talk. The slides talk about the Henderson-Hasselbalch equation.
+3.	My recollection is that Logan writes the HH equation differently from the video. Explain the difference.
+4.	Make an Excel table with one column for the ratio of base to acid. Calculate the pH, based on the HH equation.
+
+
+
+The next goal is to gain more control in measuring pH when there are several solutions of known pH. Design an experiment with ~5 wells.
+ Two wells should be occupied by the standards with pH 4 and pH 7. The other wells should contain different ratios of acid/conj_base.
+ For a fixed total volume in a well, calculate the amount of acid and conj base that you can pipet accurately with the current setup.
+ Plan what you need to make Legolas do in order to measure pH.
+
+If you’re ready to implement your idea on Legolas, pour out an appropriate amount into a cup (stock solutions are in the box).
+ Bear in mind that we will not pour the cup contents back into the bottle because of the risk of contamination. If you pour
+ too much into the cup, you will have to make more stock solution sooner – doable but it takes time. When you actually make
+ the measurements, if the answers are not what you expect, it could be the pH sensor is defective or your method of measurement
+ needs improvement.
+
+Adi did a lot of pH tests on Friday. Most likely the pH sensor was not functional but Adi knows the whole process of how to handle a pH sensor. Here is a list of things you can work on:
+1.	Adi, please document what you did and update Miller.
+2.	I think it is best if the Arduino returns a voltage and the Jupyter notebook converts the voltage to pH. The calibration can change with each run, so you need to be able to edit it in a more convenient place than the Arduino code. Edit the .ino file to return voltage. In the .ipynb file, write code to convert voltage to pH. Print both voltage and pH. When you record the values in your binder, you must record the voltage at minimum. When you make changes in the code, at the top of the file, indicate the date, the line numbers for the change, and who wrote the code. I want to check your work.
+3.	Try out the new pH sensor (the one in the beaker). You don’t have to mount it on Legolas yet. Use your hand to mimic what the robot would do. Also test your code. By doing it this way, you won’t have to deal with timeouts.
+4.	Study how the old pH sensor is mounted on Legolas. Ultimately you will have to switch the sensor.
+5.	Meanwhile I read about how to restore a pH sensor and have ordered the reagents.
+
+
