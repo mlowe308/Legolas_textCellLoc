@@ -469,7 +469,7 @@ class DepositionDevice(DeviceOnStage):
         #     pass
             
         # self.motor_S.run_for_degrees(-self.s_full_down)
-        self.to_zpos("full_down")
+        self.to_zpos("intake")                      #changed 'full_down' to 'intake'
 
         self.motor_V.run_for_degrees(acq_degree)
         self.volume += vol

@@ -1,28 +1,23 @@
 devices:
   depo:
     s_positions:
-      full_down: -288
-      full_up: 0
+      full_down: -273
+      full_up: 16
+      intake: -190
     vol_deg_map:
-      0: 0
-      0.093: 82.305
-      0.207: 183.195
-      0.212: 187.62
-      0.282: 249.57
-      0.325: 287.625
-      0.392: 346.92
-      0.408: 361.08
-      0.485: 429.225
-      0.498: 440.73
-      0.589: 521.265
-      0.596: 527.46
-      0.649: 574.365
+      0.0: -73
+      0.081: 67
+      0.209: 157
+      0.312: 232
+      0.427: 313
+      0.499: 390
+      0.59: 474
     x_offset: -33
     y_offset: -203
   pH:
     pH_positions:
-      full_down: -348
-      full_up: 0
+      full_down: -684
+      full_up: -243
     verbose: true
     x_offset: 0
     y_offset: 0
@@ -32,20 +27,20 @@ global:
 stage:
   aux_loc_map:
     acid:
-    - -1196
-    - 38
+    - -1038
+    - -217
     base:
-    - -1251
-    - -758
+    - -1041
+    - -456
+    blot:
+    - -150
+    - -1118
     clean:
     - -729
     - -843
     near origin:
     - -918
     - -5
-    blot:
-    - -146
-    - -1091
   cell_loc_map: /Users/notaspy/Desktop/Legolas_textCellLoc-main/cell_map.txt
   home_x_offset: -100
   home_y_offset: -100
