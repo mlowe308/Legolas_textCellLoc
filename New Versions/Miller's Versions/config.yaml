@@ -1,0 +1,46 @@
+devices:
+  depo:
+    s_positions:
+      full_down: -281
+      full_up: 11
+      intake: -190
+    vol_deg_map:
+      0.0: -73
+      0.081: 67
+      0.209: 157
+      0.312: 232
+      0.427: 313
+      0.499: 390
+      0.59: 474
+    x_offset: -40
+    y_offset: -193
+  pH:
+    pH_positions:
+      full_down: -54
+      full_up: 408
+    verbose: true
+    x_offset: 0
+    y_offset: 0
+global:
+  pi1_address: 192.168.1.11
+  pi2_address: 192.168.1.14
+stage:
+  aux_loc_map:
+    acid:
+    - -1077
+    - -263
+    base:
+    - -1077
+    - -727
+    blot:
+    - -150
+    - -1118
+    clean:
+    - -729
+    - -843
+    near origin:
+    - -918
+    - -5
+  cell_loc_map: C:\Users\grufi\OneDrive\Desktop\legolas\Legolas_textCellLoc-main\cell_map.txt
+  home_x_offset: -100
+  home_y_offset: -100
