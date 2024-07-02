@@ -1,6 +1,9 @@
 # 7/1/23 def load_cell_map and save_cell_map were edited
 # line 63 and 83: switched to rpyc.connect
 # 6/19 def pH_measure (line 607), pH_value variable changed to voltage, prints voltage
+# 6/28/24 def acquire (line 474) changed 'full_down' to 'intake'
+# 7/1/24 def acquire (line 474) changed 'intake' back to 'full_down'
+# 7/1/24 def deposition (line 496) added "full_down" and "full_up" commands
 
 import time
 import warnings
@@ -469,7 +472,7 @@ class DepositionDevice(DeviceOnStage):
         #     pass
             
         # self.motor_S.run_for_degrees(-self.s_full_down)
-        self.to_zpos("intake")                      #changed 'full_down' to 'intake'
+        self.to_zpos("full_down")              #changed 'full_down' to 'intake'    #--changed back to 'full_down'
 
         self.motor_V.run_for_degrees(acq_degree)
         self.volume += vol
@@ -491,6 +494,7 @@ class DepositionDevice(DeviceOnStage):
             raise ValueError("vol or dep_degree must not be None at the same time")
 
         self.move_to(location=location, row=row, col=col, x_degree=x_degree, y_degree=y_degree)
+        self.to_zpos("full_down")             #added
         # if location is not None:
         #     self.move_to_loc(location)
         # elif row is not None and col is not None:
@@ -502,8 +506,17 @@ class DepositionDevice(DeviceOnStage):
         
         self.motor_V.run_for_degrees(-dep_degree)
         self.volume -= vol
+        self.to_zpos("full_up")
 
         return self
+
+    def down(self):                                         #added function
+        vol = 0.599
+        dep_degree = self._vol_deg_f(vol)
+        self.motor_V.run_for_degrees(-dep_degree)
+        if vol > self.volume:
+            vol = self.volume
+        self.volume -= vol
 
 
     def acq_dep(self, location, row, col, deg=None, vol=None):
