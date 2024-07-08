@@ -16,8 +16,8 @@ devices:
     y_offset: -193
   pH:
     pH_positions:
-      full_down: -54
-      full_up: 408
+      full_down: -397
+      full_up: 32
     verbose: true
     x_offset: 0
     y_offset: 0
@@ -27,17 +27,17 @@ global:
 stage:
   aux_loc_map:
     acid:
-    - -1077
-    - -263
+    - -1120
+    - -274
     base:
-    - -1077
-    - -727
+    - -1299
+    - -685
     blot:
     - -150
     - -1118
     clean:
-    - -729
-    - -843
+    - -1066
+    - -983
     near origin:
     - -918
     - -5
