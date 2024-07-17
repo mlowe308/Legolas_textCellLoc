@@ -1,0 +1,187 @@
+kill server at PID:10246
+restarting the rpyc server at host: 192.168.1.11
+rpyc server start successfully
+kill server at PID:598141
+restarting the rpyc server at host: 192.168.1.14
+rpyc server start successfully
+Voltage is Measured as: 1.74
+Voltage is Measured as: 1.03
+Voltage is Measured as: 1.68
+Voltage is Measured as: 1.03
+Voltage is Measured as: 1.69
+Voltage is Measured as: 1.03
+slope: 4.441946833463641, intercept: -0.5706606724003119
+count value: 0
+Acid/Base ratio measured: [0.1]
+acid_vol, base_vol: 0.18181818181818182 1.8181818181818181
+row: 0, col: 0
+Voltage is Measured as: 1.36
+pH: 5.47038702111024
+count value: 0
+Acid/Base ratio measured: [0.1]
+Optimization restart 1/5, f = 3.1182879006330855
+Optimization restart 2/5, f = 3.1182879005673563
+Optimization restart 3/5, f = 3.118287902132993
+Optimization restart 4/5, f = 3.1182879029499384
+Optimization restart 5/5, f = 3.1182879008443263
+The next ratio to investigate is [3.65384615]
+count value: 1
+Acid/Base ratio measured: [3.65384615]
+acid_vol, base_vol: 1.5702479338842976 0.4297520661157024
+row: 0, col: 1
+Voltage is Measured as: 1.00
+pH: 3.871286161063329
+counter value: 1
+Acid/Base ratio measured: [3.65384615]
+Optimization restart 1/5, f = 4.848656774417735
+Optimization restart 2/5, f = 5.949434698436433
+Optimization restart 3/5, f = 5.949434668662764
+Optimization restart 4/5, f = 4.8486567729756755
+Optimization restart 5/5, f = 4.848656772961635
+The next ratio to investigate is [10.]
+count value: 2
+Acid/Base ratio measured: [10.]
+acid_vol, base_vol: 1.8181818181818181 0.18181818181818188
+row: 0, col: 2
+Voltage is Measured as: 0.90
+pH: 3.427091477716965
+counter value: 2
+Acid/Base ratio measured: [10.]
+Optimization restart 1/5, f = 6.241319687027671
+Optimization restart 2/5, f = 8.664418942380076
+Optimization restart 3/5, f = 8.664419074039861
+Optimization restart 4/5, f = 8.664419074199337
+Optimization restart 5/5, f = 8.664419074585505
+The next ratio to investigate is [9.74615385]
+count value: 3
+Acid/Base ratio measured: [9.74615385]
+acid_vol, base_vol: 1.8138869005010738 0.18611309949892618
+row: 0, col: 3
+Voltage is Measured as: 0.89
+pH: 3.3826720093823286
+counter value: 3
+Acid/Base ratio measured: [9.74615385]
+Optimization restart 1/5, f = 4.564126592450354
+Optimization restart 2/5, f = 4.5641265858514295
+Optimization restart 3/5, f = 4.564126600487703
+Optimization restart 4/5, f = 6.960356886603575
+Optimization restart 5/5, f = 6.960356886440347
+The next ratio to investigate is [6.19230769]
+count value: 4
+Acid/Base ratio measured: [6.19230769]
+acid_vol, base_vol: 1.7219251336898396 0.27807486631016043
+row: 0, col: 4
+Voltage is Measured as: 0.94
+pH: 3.6047693510555106
+counter value: 4
+Acid/Base ratio measured: [6.19230769]
+Optimization restart 1/5, f = 6.720295922702117
+Optimization restart 2/5, f = 6.720295922948797
+Optimization restart 3/5, f = 6.720295922703406
+Optimization restart 4/5, f = 7.543725671772659
+Optimization restart 5/5, f = 7.543725671604876
+The next ratio to investigate is [7.71538462]
+count value: 5
+Acid/Base ratio measured: [7.71538462]
+acid_vol, base_vol: 1.7705207413945279 0.22947925860547214
+row: 0, col: 5
+Voltage is Measured as: 0.91
+pH: 3.4715109460516014
+counter value: 5
+Acid/Base ratio measured: [7.71538462]
+Optimization restart 1/5, f = 5.523008963641646
+Optimization restart 2/5, f = 5.523008954008992
+Optimization restart 3/5, f = 5.523008953971578
+Optimization restart 4/5, f = 5.523008954392507
+Optimization restart 5/5, f = 5.523008953906984
+The next ratio to investigate is [2.13076923]
+count value: 6
+Acid/Base ratio measured: [2.13076923]
+acid_vol, base_vol: 1.3611793611793612 0.6388206388206388
+row: 1, col: 0
+Voltage is Measured as: 1.04
+pH: 4.048964034401875
+counter value: 6
+Acid/Base ratio measured: [2.13076923]
+Optimization restart 1/5, f = 7.937902963706395
+Optimization restart 2/5, f = 7.937902963707375
+Optimization restart 3/5, f = 7.937902963778662
+Optimization restart 4/5, f = 7.937902965716436
+Optimization restart 5/5, f = 7.937902963784634
+The next ratio to investigate is [0.35384615]
+count value: 7
+Acid/Base ratio measured: [0.35384615]
+acid_vol, base_vol: 0.5227272727272726 1.4772727272727275
+row: 1, col: 1
+Voltage is Measured as: 1.22
+pH: 4.84851446442533
+counter value: 7
+Acid/Base ratio measured: [0.35384615]
+Optimization restart 1/5, f = 8.203212130517548
+Optimization restart 2/5, f = 8.203212130941694
+Optimization restart 3/5, f = 8.203212130513045
+Optimization restart 4/5, f = 8.203212130595706
+Optimization restart 5/5, f = 8.203212130722056
+The next ratio to investigate is [5.17692308]
+count value: 8
+Acid/Base ratio measured: [5.17692308]
+acid_vol, base_vol: 1.676214196762142 0.323785803237858
+row: 1, col: 2
+Voltage is Measured as: 0.95
+pH: 3.649188819390147
+counter value: 8
+Acid/Base ratio measured: [5.17692308]
+Optimization restart 1/5, f = 7.793172687587441
+Optimization restart 2/5, f = 7.793172687385272
+Optimization restart 3/5, f = 7.793172710852965
+Optimization restart 4/5, f = 7.793172688740266
+Optimization restart 5/5, f = 7.7931726902207865
+The next ratio to investigate is [9.49230769]
+count value: 9
+Acid/Base ratio measured: [9.49230769]
+acid_vol, base_vol: 1.8093841642228738 0.19061583577712615
+row: 1, col: 3
+Voltage is Measured as: 0.88
+pH: 3.338252541047692
+counter value: 9
+Acid/Base ratio measured: [9.49230769]
+Optimization restart 1/5, f = 7.286199783303706
+Optimization restart 2/5, f = 7.286199781464845
+Optimization restart 3/5, f = 7.286199781434766
+Optimization restart 4/5, f = 7.286199781518492
+Optimization restart 5/5, f = 7.2861997821091915
+The next ratio to investigate is [2.63846154]
+count value: 10
+Acid/Base ratio measured: [2.63846154]
+acid_vol, base_vol: 1.4503171247357294 0.5496828752642706
+row: 1, col: 4
+Voltage is Measured as: 1.01
+pH: 3.9157056293979653
+counter value: 10
+Acid/Base ratio measured: [2.63846154]
+Optimization restart 1/5, f = 6.9616358060744545
+Optimization restart 2/5, f = 6.9616358060072265
+Optimization restart 3/5, f = 6.961635805908756
+Optimization restart 4/5, f = 6.961635806081491
+Optimization restart 5/5, f = 6.961635805904455
+The next ratio to investigate is [7.20769231]
+count value: 11
+Acid/Base ratio measured: [7.20769231]
+acid_vol, base_vol: 1.7563261480787253 0.24367385192127466
+row: 1, col: 5
+Voltage is Measured as: 0.91
+pH: 3.4715109460516014
+counter value: 11
+Acid/Base ratio measured: [7.20769231]
+mean,variance: [[4.59122561]] [[0.03242034]]
+
+Name : GP regression
+Objective : 6.961635805904455
+Number of Parameters : 3
+Number of Optimization Parameters : 3
+Updates : True
+Parameters:
+  [1mGP_regression.         [0;0m  |                 value  |  constraints  |  priors
+  [1mrbf.variance           [0;0m  |    28.235084918425624  |      +ve      |        
+  [1mrbf.lengthscale        [0;0m  |     7.888694869087888  |      +ve      |        
+  [1mGaussian_noise.variance[0;0m  |  0.025468192135613296  |      +ve      |        
