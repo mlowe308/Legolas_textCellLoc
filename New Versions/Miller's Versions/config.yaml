@@ -16,8 +16,8 @@ devices:
     y_offset: -193
   pH:
     pH_positions:
-      full_down: -397
-      full_up: 32
+      full_down: 12
+      full_up: 530
     verbose: true
     x_offset: 0
     y_offset: 0
@@ -30,8 +30,8 @@ stage:
     - -1120
     - -274
     base:
-    - -1299
-    - -685
+    - -1274
+    - -686
     blot:
     - -150
     - -1118
