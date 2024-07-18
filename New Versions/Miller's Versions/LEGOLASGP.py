@@ -270,8 +270,8 @@ m = Bayesian_exploration_pH()
 
 plt.show()
 
-print(f"pH 7: {measure(3,1)}")
-print(f"pH 4: {measure(3,0)}")
+print(f"pH 7 remeasured: {line[0]*measure(3,1)+line[1]}")
+print(f"pH 4 remeasured: {line[0]*measure(3,0)+line[1]}")
 
 
 #Surrogate model regression results in ability to interpolate to predict value of mean and variance
