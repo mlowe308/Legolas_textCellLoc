@@ -63,6 +63,9 @@ def Bayesian_exploration_pH():
     f1=open(filename1,"w")
     f1.write("count     ratio      pH\n")
 
+    filename3="./plots/foo_mean_fulls.txt"
+    f3.open(filename3,"w")
+
     # X_grid is the list of all possible acid-base ratios that can be investigated.
     # This is the array that will be indexed with next_sample_index
     X_grid = np.linspace(0.1,10,40)[:,None]  #no. pts has to be greater than loop iterations
@@ -141,7 +144,9 @@ def Bayesian_exploration_pH():
         plt.savefig(f"./plots/foosubplots {iterations}.png", facecolor='white')
         plt.show()
 
-        #plt.close()
+        plt.close() #(((
+
+        f3.write(mean_full,"/n") #(((
 
         count+=1           #move to next well
 
@@ -279,4 +284,9 @@ print(f"pH 4 remeasured: {line[0]*measure(3,0)+line[1]}")
 mean, variance = m.predict(np.atleast_1d([1.2])[:,None]) # Prediction just for unmeasured ratios
 print('mean,variance:', mean, variance)
 print(m)
+
+filename2="./plots/foo_meanvariance.txt"  #contains acid-base ratio and pH measurements
+f2=open(filename2,"w")
+f2.write(mean, '/n', variance)
+f2.close()
 #over a range of 2 in x, there would be a change in y of Sqrt[55] (roughly)
